@@ -10,6 +10,11 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+
+  background-image: radial-gradient(#f4f4f4 10%, transparent 11%),
+    radial-gradient(#f4f4f4 10%, transparent 11%);
+  background-size: 50px 50px;
 }
 
 #search-box {
@@ -44,8 +49,6 @@ p {
   align-items: center;
 }
 
-.country-symbols__img {
-}
 
 .country-name {
   margin-left: 10px;
